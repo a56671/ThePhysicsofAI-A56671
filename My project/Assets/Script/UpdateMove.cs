@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class UpdateMove : MonoBehaviour
 {
-    public float speed = 0.5;
+    public float speed = 0.5f;
     void Update()
     {
         this.transform.Translate(0f,0f,speed*Time.deltaTime);
